@@ -73,9 +73,6 @@
             newNode->data = elem;
             newNode->link = NULL;
             *trav = newNode;
-            if(*LL == NULL){
-                LL = trav;
-            }
         }
     }
 
